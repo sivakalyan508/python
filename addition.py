@@ -1,0 +1,15 @@
+list=[]
+print("initial list:")
+print(list)
+list.append(1)
+list.append(4)
+list.append(3)
+print("list after adding elements:")
+print(list)
+list.append((5,6))
+print("list after adding tuple:")
+print(list)
+for i in range(1,5):
+    list.append(i)
+print("list after adding elements from 1 to 5") 
+print(list)   
